@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    width: 100vw;
+    background-color: red;
+}
+
+main{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
