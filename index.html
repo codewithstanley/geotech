@@ -9,141 +9,228 @@
         <!-- fontawesome js-->
         <script src="js/all.js"></script>
         <!-- google font -->
-        <link rel="stylesheet" href="css/app.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="css/styles.css">
 
         <title>Geotech Technologies</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">SMALL BUSINESS</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a href="index.html" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="services.html" class="nav-link">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact_html" class="nav-link">Contact</a>
-                            </li>
+        <nav class="navbar">
+            <div class="nav_container nav_flex">
+                <div><a href="index.html"><img src="./img/pics/logo.png" class="img-fluid"></a></div>
+                <div>
+                    <ul class="navbar_nav">
+                        <li class="nav_item active">
+                            <a href="index.html" class="nav_link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="services.html" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav_item">
+                                <a href="contact.html" class="nav_link">Contact</a>
+                        </li>
                             
-                        </ul>
-                        <div>
-                            <button type="button" class="btn btn-dark  btn-sm">log in</button>
-                        </div>
-                    </div>
+                    </ul>
+                    <div>
+                        <img src="./assets/icons/engineering/hamburger-menu.svg" alt="Hamburger menu" class="h_icon">
+                    </div>  
+                </div>
+                
             </div>
         </nav><!--End of Navigation -->
-        <div class="container">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active text-center">
-                        <img src="img/1200x400.png" alt="first slide" class="d-block img-fluid">
-                        <!--<h2>Lorem ipsum dolor sit.</h2>
-                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing.</p> -->
+        <div id="top-level">
+            <div class="hero mt-0">
+                <div class="content">
+                    <div class="inner_text">
+                        <div>
+                        <h1>Responsive Customer Focused Solutions</h1>
+                        <p>All projects are achieved with the desired goals of our client in mind, at high quality</p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/1200x400.png" alt="second slide" class="d-block img-fluid">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/1200x400.png" alt="third slide" class="d-block img-fluid">
-                    </div>
-                </div> 
+                </div>
             </div>
         </div><!-- End of Carousel-->
-        <div class="container">
-            <img src="img/200x200.png" alt="">
-            <img src="img/200x200.png" alt="">
-            <img src="img/200x200.png" alt="">
-            <img src="img/200x200.png" alt="">
-            <img src="img/200x200.png" alt="">
-            <img src="img/200x200.png" alt="">
-        
-       
-            <img src="img/300x300.png" alt="office picture">
-            <h3>Lorem ipsum </h3>
-            <p class="lead">Lorem, ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga enim eius placeat, cumque adipisci assumenda.</p>
-            <button type="button" class="btn btn-sm btn-secondary">read more</button>
-            <button type="button" class="btn btn-sm btn-danger">brochure</button>
-
-            <h2>Services</h2>
-            <h3>What we do</h3>
-            <div class="card">
-                <!--<div class="card-header"></div>-->
-                <div class="card-body">
-                    <div class="card-title">Lorem, ipsum.</div>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit perferendis rerum corporis ea voluptatem sunt vero harum ipsa veniam.</p>
+        <article class="service">
+            <div class="container pb-5"> 
+                <!-- <div class="col-10 mx-auto"> -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center my-5">
+                                <h2 class="md-3 h_text">Services</h2>
+                                <div class="h-1"></div>
+                                <p class="lead md-2">What we do</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-grid">
+                                <div class="services m-2 ">
+                                    <img src="./assets/icons/engineering/signal-tower.svg" alt="signal tower" class="icon-img">
+                                    <h3 class="card_title animate__animated animate__fadeInUp">Telecommunication</h3>
+                                    <p class="card_text animate__animated animate__fadeInUp">We carry out sales, Installation and maintenance of voice and data equipment..</p>
+                                    <a href="services.html" class="btn btn_m animate__animated animate__fadeInUp">Read more</a>
+                                </div>
+            
+                                <div class="services m-2">
+                                    <img src="./assets/icons/engineering/construction-excavator.svg" alt="" class="icon-img">
+                                    <h3 class="card_title animate__animated animate__fadeInUp">Construction</h3>
+                                    <p class="card_text animate__animated animate__fadeInUp">We ensure that quality is achieved in every job/contract we are
+                                        involved..</p>
+                                        <a href="services.html" class="btn btn_m animate__animated animate__fadeInUp">Read more</a>
+                                </div>
+            
+                                <div class="services m-2">
+                                    <img src="./assets/icons/engineering/renewable-energy-solar.svg" alt="" class="icon-img">
+                                    <h3 class="card_title animate__animated animate__fadeInUp">Solar Energy</h3>
+                                    <p class="card_text animate__animated animate__fadeInUp">We possess rich experience in the field of solar engineering
+                                        technologies</p>
+                                        <a href="services.html" class="btn btn_m animate__animated animate__fadeInUp">Read more</a>
+                                </div>
+                                <div class="services m-2">
+                                    <img src="./assets/icons/engineering/project-management-timeline.svg" alt="" class="icon-img">
+                                    <h3 class="card_title animate__animated animate__fadeInUp">Project Management</h3>
+                                    <p class="card_text animate__animated animate__fadeInUp">Our techniques snsures total Quality Management for every project
+                                        supervised.</p>
+                                        <a href="services.html" class="btn btn_m animate__animated animate__fadeInUp">Read more</a>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 text-center">
+                                <a href="services.html" class="btn btn-sm btn-danger my-3">Read more</a>
+                            </div> -->
+                        </div>
+                    <!-- </div> -->
                 </div>
+            </article>
+      
+           
+            <div class="about">
+                <div class="d-grid_2">
+                    <div class="about_img">
+                        <img src="img/corporate.jpg" alt="office picture" class="img-fluid">
+                    </div>
+                    <div class="about_text proj">
+                        <h2 class="h_text animate__animated animate__fadeInUp">About us </h2>
+                        <p class="lead animate__animated animate__fadeInUp">Who we are</p>
+                        <p class="animate__animated animate__fadeInUp">Geotech Technologies Ltd is a nationally recognized medium sized Engineering & Telecommunication service
+                            provider
+                            offering full range of Telecommunication
+                            Engineering services to both corporate and individual clients.</p>
+                        <a href="" class="btn animate__animated animate__fadeInUp">brochure</a>
+                        <a href="about.html" class="btn animate__animated animate__fadeInUp">read more</a>
+                        <section id="features">
+                    </div>
+                </div>
+            </div>
+            
+            <section class="about">
+                <div class="container proj">
+                    <h2 class="h_text text_c">Our Clients</h2>
+                    <div class="d-grid_clients">
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/jbn-logo-280x60.svg" alt="" class="client_img">
+                        </div>
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/nass.png" alt="" class="client_img">
+                        </div>
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/kano state.png" alt="" class="client_img">
+                        </div>
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/jbn-logo-280x60.svg" alt="" class="client_img">
+                        </div>
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/nexim.png" alt="" class="client_img">
+                        </div>
+                        <div class="col_md_3 text-center feature-box animate__animated animate__fadeInUp">
+                            <img src="./img/clients/unicef.png" alt="" class="client_img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="proj">
+                <div class="container d-project">
+                    <div>
+                    <h2 class="animate__animated animate__fadeInUp">Contact us for Projects or Need a quotations</h2>
+                    <div class="animate__animated animate__fadeInUp"><a href="" class="btn">Get a quote</a></div>
+                    </div>
+                </div>
+            </section>
+                <!-- End of container About Us container-->
+                <!-- </div> End of clientele
+           
+            </div> -->
+        <!-- <section id="sub">
+            <h2 class="sub_h2 h5">Subsidiaries</h2>
+            <div class="container sub_main">
                 
+                <div class="subsidiary_name"><a href="./subsidiary/godiri/index.html" alt="Godiri"><img src="./subsidiary/img/godiri/2x/logo@2x.png"></a></div>
+                <div class="subsidiary_name"><a href="./subsidiary/geomed/index.html" alt="Geotech Medical"><img src="./subsidiary/img/geomed/2x/logo@2x.png"></a></div>
+                <div class="subsidiary_name"><a href="./subsidiary/cgm/index.html" alt="CGM Global"><img src="./subsidiary/img/cgm/2x/logo@2x.png"></a></div>
+                <div class="subsidiary_name"><a href="./subsidiary/hexo/index.html" alt="Hexo"><img src="./subsidiary/img/hexo/2x/logo@2x.png"></a></div>
             </div>
-            <div class="card">
-                <!--<div class="card-header"></div>-->
-                <div class="card-body">
-                    <div class="card-title">Lorem, ipsum.</div>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit perferendis rerum corporis ea voluptatem sunt vero harum ipsa veniam.</p>
-                </div>
-                
-            </div>
-            <div class="card">
-                <!--<div class="card-header"></div>-->
-                <div class="card-body">
-                    <div class="card-title">Lorem, ipsum.</div>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit perferendis rerum
-                        corporis ea voluptatem sunt vero harum ipsa veniam.</p>
-                </div>
-               
-            </div>
-            <button type="button" class="btn btn-danger">read more</button>
-        </div> <!-- End of clientele-->
+        </section> -->
     
-        <footer class="small">
+        <footer class="small fp-5">
             <div class="container">
-                <h6>Quick links</h6>
-                <ul class="list-unstyled">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-                <h6>Follow us</h6>
-                <ul class="list-unstyled">
-                    <li><a href="#"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-                    <li><a href="#"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i>Twitter</a></li>
-                    <li><a href="#"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i>Lnstagram</a></li>
-                    <li><a href="#"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-                </ul>
-                <h6>Our location</h6>
-                <address>
-                    <strong>Geotech Technologies Ltd</strong><br>
-                    Plot 2425 Herbert Macaulay Way<br>
-                    Wuse Zone 4<br>
-                    Abuja<br>
-                    <i class="fa fa-fw fa-phone" aria-hidden="true"></i><a hfre="tel:+234 1234">(234) 1234 234</a><br>
-                    <i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i><a hfre="mailto:info@geotech.com.ng">info@geotech.com.ng</a><br>
-                </address>
-                <ul class="list-inline">
-                    <li class="list-inline-item">&copy; 2020. All rights reserved</li>
-                </ul>
+                <div class="footer_row">
+                    <div class="col-md-4">
+                        <h4 class="my-4">Quick links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="my-4">Follow us</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i>Lnstagram</a></li>
+                            <li><a href="#"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="my-4">Our location</h4>
+                        <address>
+                            <strong>Geotech Technologies Ltd</strong><br>
+                            Suite T10 Febson Mall<br>
+                            Plot 2425 Herbert Macaulay Way<br>
+                            Wuse Zone 4<br>
+                            Abuja FCT<br>
+                            <i class="fas fa-fw fa-phone" aria-hidden="true"></i><a hfre="tel:+234 09 624 3640">(234) 09 524 2727</a><br>
+                            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i><a hfre="mailto:info@geotech.com.ng">info@geotech.com.ng</a><br>
+                        </address>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="copyright_row">
+                        <div class="col-12 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">&copy; 2020. All rights reserved</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
 
 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery-3.4.1.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script> -->
     </body>
 </html>
