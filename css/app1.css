@@ -1,0 +1,33 @@
+.d-flex, .d-inline-flex {
+    /* background-color: lightgrey; */
+    /* border: 1px solid white; */
+    
+}
+
+.d-flex div {
+    background-color: green;
+    text-align: center;
+    border-radius: 3px;
+    /* border: 1px solid #960707; */
+    box-shadow: -8px 9px 14px -8px rgba(0,0,0,0.81);
+    -webkit-box-shadow: -8px 9px 14px -8px rgba(0,0,0,0.81);
+    -moz-box-shadow: -8px 9px 14px -8px rgba(0,0,0,0.81);
+    }
+
+    .mainbox {
+        background-color: teal;
+        position: relative;
+        border: 1px solid #000;
+        width: 500px;
+        height: 500px;
+        left: 20rem;
+    }
+
+    .box {
+        position: absolute;
+        background-color: #fff;
+        width: 100px;
+        height: 100px;
+        top: 10rem;
+        left: 20rem;
+    }
